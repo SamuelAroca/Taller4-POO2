@@ -24,6 +24,15 @@ class Taller4:
     salir = 1
 
     while salir != 0:
+        
+        print("Ingrese los valores")
+        print(" ")
+        a = float(input("Digite el valor de a: "))
+        print(" ")
+        b = float(input("Digite el valor de b: "))
+        print(" ")
+        n = int(input("Digite el valor de n: "))
+        print(" ")
         print("1 Suma, 2 Resta, 3 Multiplicación, 4 Exponenciación, 5 Inverso, 0 Para salir")
         print(" ")
         opc = int(input("Digite su opción: "))
@@ -33,50 +42,23 @@ class Taller4:
             break
 
         elif opc == 1:
-            a = float(input("Digite el valor de a: "))
-            print(" ")
-            b = float(input("Digite el valor de b: "))
-            print(" ")
-            n = int(input("Digite el valor de n: "))
-            print(" ")
 
             print(suma(a,b,n))
 
         elif opc == 2:
-            a = float(input("Digite el valor de a: "))
-            print(" ")
-            b = float(input("Digite el valor de b: "))
-            print(" ")
-            n = int(input("Digite el valor de n: "))
-            print(" ")
 
             print(resta(a,b,n))
 
         elif opc == 3:
-            a = float(input("Digite el valor de a: "))
-            print(" ")
-            b = float(input("Digite el valor de b: "))
-            print(" ")
-            n = int(input("Digite el valor de n: "))
-            print(" ")
 
             print(multi(a,b,n))
 
         elif opc == 4:
-            a = float(input("Digite el valor de a: "))
-            print(" ")
-            b = float(input("Digite el valor de b: "))
-            print(" ")
-            n = int(input("Digite el valor de n: "))
-            print(" ")
-
+            
             print(expo(a,b,n))
 
         elif opc == 5:
-            a = int(input("Digite el valor de a: "))
-            print(" ")
-            n = int(input("Digite el valor de n: "))
-            print(" ")
+            
             resul = inverso(a,n)
 
             if resul == 1:
