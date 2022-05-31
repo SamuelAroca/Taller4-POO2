@@ -73,14 +73,20 @@ class Taller4:
             print(expo(a,b,n))
 
         elif opc == 5:
-            a = float(input("Digite el valor de a: "))
+            a = int(input("Digite el valor de a: "))
+            print(" ")
             n = int(input("Digite el valor de n: "))
             print(" ")
+            resul = inverso(a,n)
 
-            print(inverso(a,n))
+            if resul == 1:
+                print("Es inverso modular ", resul)
+            else: 
+                print("No es inverso modular ", resul)
 
         else:
             print("Elija una opcion correcta")
 
         print(" ")
         salir = int(input("Si desea salir digite 0, si no cualquier otro numero: "))
+        print(" ")
