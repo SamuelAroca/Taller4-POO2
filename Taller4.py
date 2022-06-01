@@ -1,3 +1,7 @@
+#Samuel Aroca   
+#Jim Díaz del Castillo
+#Hamlet Pirazán 
+#Giancarlo Cabrera
 import math
 
 class Taller4:
