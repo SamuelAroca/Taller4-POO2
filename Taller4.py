@@ -7,16 +7,17 @@ import math
 class Taller4:
 
     def suma(a,b,n):
-        return (a + b) % n
+        return ((a % n) + (b % n)) % n
 
     def resta(a,b,n):
-        return (a - b) % n
+        return ((a % n) - (b % n)) % n
 
     def multi(a,b,n):
-        return (a * b) % n
+        return ((a % n) * (b % n)) % n
 
     def expo(a,b,n):
-        return (math.pow(a,b)) % n
+        c = a%n
+        return (math.pow(c,b)) % n
 
     def inverso(a,n):
         return (a*(math.pow(a,-1))) % n
